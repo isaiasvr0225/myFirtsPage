@@ -1,0 +1,150 @@
+body{
+    background-color: #CFDAC8;
+}
+
+h1{
+font-family: 'Yatra One', cursive;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+    color:#185ADB;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Mali', cursive;
+    
+}
+
+.parrafo1{
+    margin-left: 20px;
+}
+
+footer{
+    margin: 2px 104px 10px 105px;
+    background-color: #333;
+    border: 5px solid #333;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+.container{
+    margin-top: 30px;
+    background-color: #C7FFD8;
+    border: 5px solid #C7FFD8;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+.nosub{
+    text-decoration: none;
+    margin-right: auto;
+    color: white;
+}
+.container1{
+    display: flex;
+    padding-bottom: -4px;
+}
+.container2{
+    margin-top: 2px;
+}
+
+.ft-pagina{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ft-names{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Merienda', cursive;
+    font-size: 10px;
+
+}
+
+.ft-aviso{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.nosub:hover{
+    color: black;
+    background-color: #CFDAC8;
+    border: 5px solid #red;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline-success{
+    color: blue;
+    border-color: blue;
+}
+.btn-outline-success:hover{
+    background-color: #185ADB;  
+}
+.form-control{
+    background-color: #CFDAC8;
+}
+.btn-outline-danger:hover, 
+.btn-outline-success:hover,
+.btn-outline-primary:hover{
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Iconos Redes Sociales*/
+.redes-container{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50 px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.redes-container ul:hover a{
+    filter:blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+    border-radius: 5px;
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+    background-color: #3b5998;
+}
+
+.redes-container ul li .instagram:hover{
+    background-color: #e4405f;
+}
+
+.redes-container ul li .twitter:hover{
+    background-color: #00acee;
+}
